@@ -18,7 +18,6 @@ console.log(data.values())
 console.log(data.delete('apple'))
 console.log(data)
 
-
 let a = " ";
 data.forEach(function(val){
     a += val + "\n";
