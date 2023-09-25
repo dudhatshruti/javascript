@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+    <div class="container">
+    <div id="clock" ></div>
+    </div>
+
+
+<script>
+    function displayclock(){
+    var d = new Date();
+    var hours = String(d.getHours()).padStart(2,'0');
+    var minutes = String(d.getMinutes()).padStart(2,'0');
+    var second = String(d.getSeconds()).padStart(2,'0');
+    var am_pm = String(d.AM);
+
+    if (hours >= 12) {
+        if (hours > 12){
+            am_pm = "AM";
+        }
+        else if (hours == 0){
+            am_pm = "PM";
+        }
+    }
+    document.getElementById('clock').textContent = `${hours}:${minutes}:${second}`
+    document.getElementById('clock').textContent =`${AM}`
+}
+
+setInterval(displayclock,1000);
+displayclock();
+</script>
+</body>
+</html>
