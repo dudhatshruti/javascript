@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+   
+</head>
+<body>
+    
+   <div class="container">
+        <div class="calculator">
+            <form>
+                <div class="display">
+                    <input type="text" id="hello" name="display">
+                </div>
+                <div>
+                    <input type="button" value="AC" onclick="removeall()">
+                    <input type="button" value="DE" onclick="delLast()">
+                    <input type="button" value="." onclick="data('.')">
+                    <input type="button" value="/" onclick="data('/')">
+                </div>
+                <div>
+                    <input type="button" value="7" onclick="data('7')">
+                    <input type="button" value="8" onclick="data('8')">
+                    <input type="button" value="9" onclick="data('9')">
+                    <input type="button" value="*" onclick="data('*')">
+                </div>
+                <div>
+                    <input type="button" value="4" onclick="data('4')">
+                    <input type="button" value="5" onclick="data('5')">
+                    <input type="button" value="6" onclick="data('6')">
+                    <input type="button" value="-" onclick="data('-')">
+                </div>
+                <div>
+                    <input type="button" value="1" onclick="data('1')">
+                    <input type="button" value="2" onclick="data('2')">
+                    <input type="button" value="3" onclick="data('3')">
+                    <input type="button" value="+" onclick="data('+')">
+                </div>
+                <div>
+                    <input type="button" value="00" onclick="data('00')">
+                    <input type="button" value="0" onclick="data('0')">
+                    <input type="button" value="=" class="equal" onclick="caldata()">
+                </div>
+            </form>
+        </div>
+   </div>  
+   <script src="calculator.js"></script>
+</body>
+</html>
