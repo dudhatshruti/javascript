@@ -1,0 +1,19 @@
+#container{
+    position: relative;
+}
+
+#clock{
+    background-color: rgb(246, 176, 226);
+    font-size: 60px;
+    color: rgb(21, 21, 21);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 420px;
+    padding: 40px;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+}
