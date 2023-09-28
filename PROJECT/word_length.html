@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>word length counter</title>
+    <style>
+        .word{
+            position: relative;
+            background-color: cadetblue;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            background-color: bisque;
+            max-width: 500px;
+            height: 250px;
+
+        }
+        .word input{
+            align-items: center;
+            justify-content: center;
+            width: 60%;
+            left: 20%;
+            padding: 20px;
+            top: 15%;
+            font-size: larger;
+            position: absolute;
+        }
+        h4{
+            margin-top: 120px;
+            font-size: 18px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button{
+            color: green;
+            font-size: 20px;
+            width: 401px;
+            text-align: center;
+            margin-left: 50px;            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="word">
+        <input type="text" id="count" placeholder="type something"> 
+        <h4 >word length:<span id="data"></span></h4><br>
+        <button onclick="countword()">count char</button>
+    </div>
+</body>
+
+<script>
+   function countword(){
+    let noword = document.getElementById('count').value.length;
+    document.getElementById('data').innerHTML =  + noword; 
+    
+   }
+
+</script>
+</html>

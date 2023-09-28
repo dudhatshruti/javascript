@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>vowel length counting</title>
+
+   <style>
+    .word{
+        position: relative;
+        background-color: cadetblue;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        background-color: bisque;
+        max-width: 500px;
+        height: 250px;
+    }
+    .word input{
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        left: 20%;
+        padding: 20px;
+        top: 15%;
+        font-size: larger;
+        position: absolute;
+    }
+    h4{
+        margin-top: 120px;
+        font-size: 18px;
+        justify-content: center;
+        align-items: center;
+    }
+    button{
+        color: green;
+        font-size: 20px;
+        width: 401px;
+        text-align: center;
+        margin-left: 50px;            
+    }
+</style>
+</head>
+<body>
+    <div class="word">
+        <input type="text" id="hello" placeholder="type something"> 
+        <h4 >vowel length:<span id="data"></span></h4><br>
+        <button onclick="countvowel()">click here</button>
+    </div>
+</body>
+
+<script>
+   
+ function countvowel(){
+    let word = document.getElementById('hello').value;
+    let len = String(word.trim())
+    let count = 0;
+    for(i in len){
+        if(len[i]=='i' || len[i]=='o' || len[i]=='a' || len[i]=='u' || len[i]=='e' ||len[i]=='I' || len[i]=='O' || len[i] =='A' || len[i]=='U' || len[i]=='E'  )
+        {
+          count+=1;
+        }
+        }
+        document.getElementById('data').textContent = count.toString()
+    }
+</script>
+</html>
