@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>random string</title>
+    <style>
+        .word{
+            position: relative;
+            background-color: cadetblue;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            background-color: bisque;
+            max-width: 500px;
+            height: 250px;
+        }
+        .word input{
+            align-items: center;
+            justify-content: center;
+            width: 60%;
+            left: 20%;
+            padding: 20px;
+            top: 15%;
+            font-size: larger;
+            position: absolute;
+        }
+        button{
+            margin-top: 120px;
+            color: green;
+            font-size: 20px;
+            width: 90px;
+            text-align: center;
+            margin-left: 200px;  
+        }
+    </style>
+</head>
+<body>
+    <div class="word">
+        <input type="text" id="count" placeholder="type something"> 
+        <!-- <h4 >random no length:<span id="data"></span></h4><br> -->
+        <button onclick="randomstr()">enter</button>
+    </div>
+</body>
+
+<script>
+   function randomstr(){
+       var value=prompt("Enter your string length",value);
+       const char = 'ABCDEFGHIJKLMdNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
+    let result = '';
+    for(let i=0; i < value; i++)
+        {
+            result += char.charAt(Math.floor(Math.random() * char.length));
+        }
+    document.getElementById("count").value = result;    
+   }
+</script>
+</html>
