@@ -13,17 +13,17 @@
 // }
 
 
-let abc = ["apple","banana","kiwi","orange"];
+// let abc = ["apple","banana","kiwi","orange"];
 
-for(let x in abc){
-    console.log(abc[x]);
-}
+// for(let x in abc){
+//     console.log(abc[x]);
+// }
 
-let mystring ="hello how are you?";
-for(let y in mystring){
-    console.log(mystring[y]);
-}
+// let mystring = "hello how are you?";  
+// for(let y in mystring){
+//     console.log(mystring[y]);
+// }
 
-for(let z of mystring){
-    console.log(z);
-}
+// for(let z of mystring){
+//     console.log(z);
+// }

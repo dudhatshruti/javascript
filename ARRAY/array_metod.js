@@ -36,7 +36,7 @@
 // arr.pop();
 // console.log(arr)
 
-// SHIFT :- REMOVE THE ELEMENT AT END POSITION
+// SHIFT :- REMOVE THE ELEMENT AT first POSITION
 
 // arr.shift();
 // arr.shift();
@@ -81,7 +81,7 @@
 // FOREACH METHOD
 
 // let num = [45,12,5,59,100,26,60]
-// let txt = "";
+// let txt = " ";
 
 // num.forEach((val) => {
 //     txt +=val;
@@ -90,6 +90,7 @@
 
 
 // MAP METHOD
+
 // let num = [45,12,5,59,100,26,60]
 
 // let aaa = num.map((val)=>{
@@ -102,7 +103,7 @@
 
 // let num = [45,12,5,59,100,26,60]
 // let txt = num.every((val)=>{
-//     return val>15;
+//     return val>15
 // })
 // console.log(txt);
 
@@ -174,8 +175,8 @@
 
 // COPYWITHIN
 
-let num = [45,12,5,59];
-let a = num.copyWithin(1,0,3)
-console.log(num);
+// let num = [45,12,5,59];
+// let a = num.copyWithin(1,0,3)
+// console.log(a);
 
 

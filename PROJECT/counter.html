@@ -29,7 +29,7 @@
         display: flex;
     }
 
-    #increment-btn,#decrement-btn, #reset{
+    #increment-btn,#decrement-btn, #reset,#del{
         height: 50px;
         width: 120px;
         padding: 40px;
@@ -68,45 +68,26 @@
             <button id="decrement-btn">-</button>
         </div>
         <button id="reset">reset</button>
+        <button id="del">delet</button>
+
     </div>
 </body>
 
 <script>
-    // let counter = 0;
-    // const countervalue = document.getElementById('counter-value')
-    // const incrementBtn = document.getElementById('increment-btn')
-    // const decrementBtn = document.getElementById('decrement-btn')
-    // const resetBtn = document.querySelector('#reset')
-
-    // incrementBtn = addEventListener('click',() =>{
-    //     counter++
-    //     countervalue.innerHTML = counter
-    // })
-
-    // decrementBtn = addEventListener('click',() =>{
-    //     counter--
-    //     countervalue.innerHTML = counter
-    // })
-
-    // resetBtn = addEventListener('click', reset)
-
-    // function reset(){
-    //     counter = 0;
-    //     countervalue.innerHTML = counter
-    // }
-   
-
+    
 let counter = 0;
 
 const counterValue = document.getElementById('counter-value');
 const incrementBtn = document.getElementById('increment-btn');
 const decrementBtn = document.getElementById('decrement-btn');
 const resetBtn = document.querySelector('#reset');
+const delBtn = document.querySelector('#del');
+
 
 // To increment the value of counter
 incrementBtn.addEventListener('click', () => {
 	counter++;
-	counterValue.innerHTML = counter++;
+	counterValue.innerHTML = counter;
 });
 
 // To decrement the value of counter
@@ -120,7 +101,14 @@ resetBtn.addEventListener('click', reset);
 
 function reset() {
 	counter = 0;
-	counterValue.innerHTML = counter ;
+	counterValue.innerHTML = counter;
+}
+
+delBtn.addEventListener('click',dele);
+
+function dele(){
+    counter = " "
+    counterValue.innerHTML = counter;
 }
 
 

@@ -4,9 +4,9 @@
 //     console.log("hello world...");
 // })();
 
-// ((a,b) =>{
-//     console.log("product is:",a+b);
-// })(22,1)
+(function(a,b){
+    console.log("product is:",a+b);
+})(22,1)
 
 // 1. square of value
 // ((a) => {

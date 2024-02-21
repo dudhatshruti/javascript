@@ -28,18 +28,18 @@
 {
     // // program to show try...catch in a program
 
-    // const numerator= 100, denominator = 20;
+    const numerator= 100, denominator = 20;
 
-    // try {
-    //      console.log(numerator/denominator);
+    try {
+         console.log(numerator/denominator);
         
-    //     // forgot to define variable a      
-    //     console.log(a);
-    // }
-    // catch(error) {
-    //     console.log('An error caught'); 
-    //     console.log('Error message: ' + error);  
-    // }
+        // forgot to define variable a      
+        console.log(a);
+    }
+    catch(error) {
+        console.log('An error caught'); 
+        console.log('Error message: ' + error);  
+    }
 }
 
 // JavaScript try...catch...finally Statement
@@ -80,7 +80,7 @@
 
 // JavaScript throw Statement
 
-// The syntax of throw statement is
+// The syntax of throw statement is   
 
 {
     // throw expression;
@@ -105,23 +105,23 @@
 
 // try...catch...throw Example
 
-{
-    const number = 140;
-    try {
-        if(number > 50) {
-            console.log('Success');
-        }
-        else {
+// {
+//     const number = 140;
+//     try {
+//         if(number > 50) {
+//             console.log('Success');
+//         }
+//         else {
 
-            // user-defined throw statement
-             throw new Error('The number is low');
-        }
+//             // user-defined throw statement
+//              throw new Error('The number is low');
+//         }
 
-        // if throw executes, the below code does not execute
-        console.log('hello');
-    }
-    catch(error) {
-        console.log('An error caught'); 
-        console.log('Error message: ' + error);  
-    }
-}
+//         // if throw executes, the below code does not execute
+//         console.log('hello');
+//     }
+//     catch(error) {
+//         console.log('An error caught'); 
+//         console.log('Error message: ' + error);  
+//     }
+// }

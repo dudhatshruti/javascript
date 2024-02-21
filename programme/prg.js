@@ -1,14 +1,13 @@
 //  reverse a number
 
-function hello(x){
-    let y = x.toString;
-    reversedStr = y.split(' ').reverse().join(' ')
-    return reversedStr
-}
-
-let x = 15438;
-let reversed = reverseNumber(x);
-console.log();
+// function hello(x){
+//     let y = x.toString;
+//     reversedStr = y.split(' ').reverse().join(' ')
+//     return reversedStr
+// }
+// let x = 15438;
+// let reversed = reverseNumber(x);
+// console.log();
 
 function reverseNumber(x) {
     // Convert the number to a string
@@ -24,6 +23,6 @@ function reverseNumber(x) {
   }
   
   // Example usage:
-//   let x = 15438;
-//   let reversed = reverseNumber(x);
-//   console.log(reversed); // Output: 83451
+  let x = 15438;
+  let reversed = reverseNumber(x);
+  console.log(reversed); // Output: 83451

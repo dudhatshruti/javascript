@@ -9,7 +9,7 @@ let card = {
     }
 }
 
-card.fullName.call()
+// card.fullName.call()
 console.log(card.fullName());
 console.log(card.id);
 console.log(card);

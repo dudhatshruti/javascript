@@ -4,7 +4,7 @@ let person ={
     email:"hello@test.com"
 }
 
-let abc={};
-Object.assign(abc,person)
+// let abc={};
+Object.assign(person)
 
-console.log(abc);
+console.log(person);

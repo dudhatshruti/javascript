@@ -19,6 +19,7 @@
 // let result
 // let txt = "how are you guys?";
 // result = txt.length;
+// console.log(result);
 
 
 // 1. SLICE
@@ -71,8 +72,8 @@
 
 // string replace :-
 
-let result
-let data = 'hi, how are you  ?, you are fine????'
+// let result
+// let data = 'hi, how are you  ?, you are fine????'
 
 //  data = data.replace("you","hello");       //'hi, how are hello  ?, you are fine????'
 //  console.log(data)
@@ -85,8 +86,8 @@ let data = 'hi, how are you  ?, you are fine????'
 
  // STRING REPLACE ALL
 
- data = data.replaceAll("are","HELLO")
- console.log(data);
+//  data = data.replaceAll("are","HELLO")
+//  console.log(data);
 
  // STRING TRIM :-
 
@@ -97,42 +98,42 @@ let data = 'hi, how are you  ?, you are fine????'
 
   // STRING TRIM START :-
 
-  let a= "       hello world       "
+  // let a= "       hello world       "
 //   a = a.trimStart();
 //   console.log(a.length)
 //   console.log(a)
 
 // STRING TRIM END :-
-a = a.trimEnd()
-  console.log(a.length)
-  console.log(a);
+// a = a.trimEnd()
+//   console.log(a.length)
+//   console.log(a);
 
   // STRING PADSTART :-
 
-  let b= "15";
+  // let b = "15";
 
-  result = b.padStart(4,"f")
-  console.log(result)
+  // result = b.padStart(4,"f")
+  // console.log(result)
 
 
   // STRING PADEND :-
 
-  result = b.padEnd(6,"f")
-  console.log(result)
+  // result = b.padEnd(6,"f")
+  // console.log(result)
 
   // STRING CHARAT :-
 
-  let txt = "skillQode"
-  result = txt.charAt(8);
-  console.log(result)
+  // let txt = "skillQode"
+  // result = txt.charAt(8);
+  // console.log(result)
 
   // STRING CHARCodeAT :-
 
-  result = txt.charCodeAt(3);
-  console.log(result)
+  // result = txt.charCodeAt(3);
+  // console.log(result)
 
   // STRING SPLIT
 
-  let make = "hello world guys";
-  result = make.split("  ")
-  console.log(result)
+  // let make = "hello world guys";
+  // result = make.split("  ")
+  // console.log(result)

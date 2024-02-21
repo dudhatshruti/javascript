@@ -24,8 +24,8 @@ let data = 'Hello world 125 ,I am learning Java script skillqode@hello.in';
 // let result = data.match(reg);
 // console.log(result)
 
-let mo = "915-678-1345";
-let reg = /^(1+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$/;
-let result = mo.match(reg);
-console.log(result)
+// let mo = "915-678-1345";
+// let reg = /^(1+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$/;
+// let result = mo.match(reg);
+// console.log(result)
 

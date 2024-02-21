@@ -12,7 +12,7 @@
 //  console.log(--a);          //21
 
 
- // assignment operator 
+// assignment operator 
 
 //  let x = 10 , y = 20;
 //  console.log(x += y);
@@ -60,23 +60,25 @@
 
 // naN
 
-let a;
-a = 10 * "s";
-console.log(a);
+// let a;
+// a = 10 * "s";
+// console.log(a);
 
-console.log(null == naN);       //false
-console.log(null === naN);       //false
-console.log(null == undefined);       //true
-console.log(null === undefined);       //false
-console.log(undefined == naN);       //false
-console.log(undefined === naN);       //true
-console.log(true == undefined);       //false
-console.log(false == undefined);       //false
-
-
+// console.log(null == naN);       //false
+// console.log(null === naN);       //false
+// console.log(null == undefined);       //true
+// console.log(null === undefined);       //false
+// console.log(undefined == naN);       //false
+// console.log(undefined === naN);       //true
+// console.log(true == undefined);       //false
+// console.log(false == undefined);       //false
 
 
-v
+let a = 2, b = 3, c;
+c = --a && b++;
+console.log(a,b,c); // 1, 4, 3
+
+
 
 
 

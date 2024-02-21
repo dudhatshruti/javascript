@@ -15,14 +15,14 @@
 
 // PROGRAMME:-
 
-function greet(){
-    console.log('hello world');
-}
-// greet();
+// function greet(){
+//     console.log('hello world');
+// }
+// // greet();
 
-setTimeout(greet,4000);
-console.log('msg  show the first while second is completed');
-console.log('today to much rain');
+// setTimeout(greet,4000);
+// console.log('msg  show the first while second is completed');
+// console.log('today to much rain');
 
 
 // the setTimeout() method calls the greet() function after 3000 milliseconds (3 second).
@@ -38,12 +38,12 @@ console.log('today to much rain');
 
 {
     // // program to display a name
-    // function greet(name, lastName) {
-    //     console.log('Hello' + ' ' + name + ' ' + lastName);
-    // }
+    function greet(name, lastName) {
+        console.log('Hello' + ' ' + name + ' ' + lastName);
+    }
 
-    // // passing argument to setTimeout
-    // setTimeout(greet, 1000, 'John', 'Doe');
+    // passing argument to setTimeout
+    setTimeout(greet, 1000, 'John', 'Doe');
 }
 
 // two parameters John and Doe are passed to the setTimeout() method. These two parameters are the arguments that will be passed to the function (here, greet() function) that is defined inside the setTimeout() method.

@@ -4,11 +4,11 @@
 //     console.log("how are you...");
 // }
 
-// function skill(s, callback){
-//     console.log("hi...",s);
-//     callback();
-// }
-// skill("peter", hello)
+function skill(s, callback){
+    console.log("hi...",s);
+    callback();
+}
+skill("peter", hello)
 
 // area of triangle
 
