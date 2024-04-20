@@ -1,20 +1,20 @@
 // ARRAY AND ITS METHOD
 
-// let array = [1,2,3,4,5,"hello", "world",true,false]
-// console.log(array);
+let array = [1,2,3,4,5,"hello", "world",true,false]
+console.log(array);
 
-// console.log(array[5]);
+console.log(array[5]);
 
-// let array1 = [];
-// array1[0] = "hello";
-// array1[1] = "world";
-// array1[2] = "skill";
-// array1[3] = "qode";
-// array1[4] = "programme";
+let array1 = [];
+array1[0] = "hello";
+array1[1] = "world";
+array1[2] = "skill";
+array1[3] = "qode";
+array1[4] = "programme";
 
-// console.log(array1)
-// array.length = 99
-// console.log(array);
+console.log(array1)
+array.length = 99
+console.log(array);
 
 // LENGTH :- RETURN A LENGTH OF ARRAY
 
@@ -75,7 +75,7 @@
 
 //  SLICE METHOD
 // let num = [45,12,5,59,100,26,60]
-// let abc = num.slice(2,4)
+// let abc = num.slice(2,5)
 // console.log(abc);
 
 // FOREACH METHOD
@@ -84,7 +84,7 @@
 // let txt = " ";
 
 // num.forEach((val) => {
-//     txt +=val;
+//     txt +=val+" ";
 // })
 // console.log(txt);
 
@@ -139,7 +139,7 @@
 
 // FIND INDEX METHOD
 
-// let num = [45,12,5,59,100,26,60]
+// let num = [5,12,5,59,100,26,60]
 // let txt = num.findIndex((val)=>{
 //     return val>15;
 // })
@@ -158,7 +158,7 @@
 // INCLUDE METHOD
 
 // let num = [45,12,5,59]
-// console.log(num.includes(121));
+// console.log(num.includes(12));
 
 // MIN AND MAX METHOD
 

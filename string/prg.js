@@ -72,8 +72,8 @@
 
 // string replace :-
 
-// let result
-// let data = 'hi, how are you  ?, you are fine????'
+let result
+let data = 'hi, how are you  ?, you are fine????'
 
 //  data = data.replace("you","hello");       //'hi, how are hello  ?, you are fine????'
 //  console.log(data)
@@ -89,19 +89,19 @@
 //  data = data.replaceAll("are","HELLO")
 //  console.log(data);
 
- // STRING TRIM :-
+ // STRING TRIM :- both side remove
 
-//   let a = "         hello world         "
-//   console.log(a.length)
+  // let a = "         hello world         "
+  // console.log(a.length)
 
-//   a = a.trim();
+  // a = a.trim();
 
   // STRING TRIM START :-
 
   // let a= "       hello world       "
-//   a = a.trimStart();
-//   console.log(a.length)
-//   console.log(a)
+  // a = a.trimStart();
+  // console.log(a.length)
+  // console.log(a)
 
 // STRING TRIM END :-
 // a = a.trimEnd()
@@ -134,6 +134,6 @@
 
   // STRING SPLIT
 
-  // let make = "hello world guys";
-  // result = make.split("  ")
-  // console.log(result)
+  let make = "hello world guys";
+  result = make.split("  ")
+  console.log(result)

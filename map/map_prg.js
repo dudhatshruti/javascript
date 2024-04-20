@@ -7,25 +7,25 @@ const  data = new Map([
 
 console.log(data);
 
-// data.set ("suzuki",90);
-// console.log(data);
+data.set ("suzuki",90);
+console.log(data);
 
-// console.log(data.has("hello"))
+console.log(data.has("hello"))
 
-// console.log(data.delete("BMW"))
-// console.log(data)
+console.log(data.delete("BMW",20))
+console.log(data)
 
-// console.log(data.entries())
+console.log(data.entries())
 
-// console.log(data.size);
+console.log(data.size);
 
-let a = " "
-data.forEach(function(value,key)
-{
-    a += key + " - " +value + "\n";
-})
+// let a = " "
+// data.forEach(function(value,key)
+// {
+//     a += key + " - " +value + "\n";
+// })
 
-console.log(a)
+// console.log(a)
 
 
 // const hello = new Map();
